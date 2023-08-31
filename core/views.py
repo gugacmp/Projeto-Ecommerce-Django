@@ -33,3 +33,6 @@ def pagamento(request):
 
 def vendas(request):
     return render(request, 'vendas.html')
+
+def fiscal(request):
+    return render(request, 'fiscal.html')
