@@ -1,6 +1,6 @@
 from django.urls import path
 
-from .views import index, contato, produto, fornecedores, estoque, pagamento, vendas
+from .views import index, contato, produto, fornecedores, estoque, pagamento, vendas, fiscal
 
 urlpatterns =[
     path('',index ),
@@ -10,5 +10,6 @@ urlpatterns =[
     path('estoque', estoque),
     path('pagamento', pagamento),
     path('vendas', vendas),
+    path('fiscal', fiscal),
 
 ]
