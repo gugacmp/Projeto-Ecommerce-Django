@@ -134,6 +134,11 @@ class Tributo(models.Model):
     cest = models.ForeignKey(Tributacao, on_delete=models.CASCADE)
 '''''
 
+"""
+class Fiscal(models.Model):
+    cfop = models.Charfield(Fiscal, max_length=150)
+"""
+
 
 
 
