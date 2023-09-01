@@ -22,6 +22,7 @@ def contato(request):
 
 def produto(request):
     return render(request, 'produto.html')
+    
 def fornecedores(request):
     return render(request,'fornecedores.html')
 
